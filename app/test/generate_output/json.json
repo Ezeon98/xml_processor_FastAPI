@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Valid",
+    "value": "Check the integrity of xml data",
+    "valid": true
+  },
+  {
+    "name": "rutemisor_0",
+    "value": "SME940803LD1",
+    "valid": true
+  },
+  {
+    "name": "rznsoc",
+    "value": "ANDES LOGISTICS DE CHILE SA",
+    "valid": true
+  },
+  {
+    "name": "fchemis",
+    "value": "2023-01-16",
+    "valid": true
+  },
+  {
+    "name": "mnt",
+    "value": "16190253",
+    "valid": true
+  },
+  {
+    "name": "mnttotal",
+    "value": "16190253",
+    "valid": true
+  },
+  {
+    "name": "tasaiva",
+    "value": null,
+    "valid": true
+  },
+  {
+    "name": "iva",
+    "value": null,
+    "valid": true
+  },
+  {
+    "name": "folio",
+    "value": "199384",
+    "valid": true
+  },
+  {
+    "name": "tipodte",
+    "value": "34",
+    "valid": true
+  },
+  {
+    "name": "rutrecep",
+    "value": "94528000-K",
+    "valid": true
+  },
+  {
+    "name": "folioref",
+    "value": "M411293469",
+    "valid": true
+  },
+  {
+    "name": "montoimp",
+    "value": null,
+    "valid": true
+  },
+  {
+    "name": "mntexe",
+    "value": "16190253",
+    "valid": true
+  }
+]

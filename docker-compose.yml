@@ -1,0 +1,30 @@
+# Agustin Wisky <a.wisky@patagon.io> 
+
+version: '3'
+services:
+  api:
+    build: .
+    environment:
+      - PG_HOST=pgbouncer
+      - PG_PORT=5432
+      - PG_DB=datareaderxmlchile
+      - PG_USER=datareaderxmlchile
+      - PG_PASSWORD=datareaderxmlchile
+      - DEBUG=true
+      - JUPYTER_TOKEN=the5ooxoo0ahNoojuNgiahoon8koozie
+      - SHELL=/bin/bash
+      - BASE_URL_API_DATAREADER=https://datareader-pr25.c3xsrv.com
+      - USER_API_DATAREADER=string
+      - PASSWORD_API_DATAREADER=string
+    ports:
+      - "1022:22"
+      - "8080:80"
+      - "8888:8888"
+      - "3002:3002" # Debugpy if Debug=true | Matching the .vscode launch "debugServer": 3002 
+    tty: true
+    volumes:
+      - ./:/code
+networks:
+  default:
+      external:
+        name: datareader-xml-chile-processor-database_default
